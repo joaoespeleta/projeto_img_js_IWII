@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Investigação</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="top-left">
+                <img src="img/brasao_pcsp.png" alt="brasão polícia cívil" class="img01">
+            </div>
+            <div class="top-right">
+                <h3 class="gray">Secretaria de Segurança Pública</h3>
+                <h2><span class="red">Polícia Cívil </span>do Estado de São Paulo</h2>
+            </div>
+        </div>
+        <hr>
+        <div class="container-content">
+            <div class="content">
+                <h3 class="text-center mg-top-2">AVALIAR INQUÉRITO</h3>
+                <br><br>
+                <form action="" id="formulario">
+                    <label for="">Nome do Delegado:</label>
+                    <br><br>
+                    <input type="text" name="investigador" id="n1" placeholder="Delegado">
+                    <br><br>
+                    <label for="">Nome do Suspeito:</label>
+                    <br><br>
+                    <input type="text" name="suspeito" id="n2" placeholder="Suspeito">
+                    <br><br>
+                    <label for="">Nome da Vítima:</label>
+                    <br><br>
+                    <input type="text" name="vitima" id="n3" placeholder="Vítima">
+                    <br><br>
+                    <label>1. Esteve em contato com a vítima 48h antes do ocorrido?</label>
+                    <br><br>
+                    <label for="p1_sim">
+                        <input type="radio" name="p1" id="p1_sim" value="Sim"> Sim
+                    </label>
+                    <br><br>
+                    <label for="p1_nao">
+                        <input type="radio" name="p1" id="p1_nao" value="Não"> Não
+                    </label>
+                    <br><br><br>
+                    <label>2. Esteve no local da ocorrência?</label>
+                    <br><br>
+                    <label for="p2_sim">
+                        <input type="radio" name="p2" id="p2_sim" value="Sim"> Sim
+                    </label>
+                    <br><br>
+                    <label for="p2_nao">
+                        <input type="radio" name="p2" id="p2_nao" value="Não"> Não
+                    </label>
+                    <br><br><br>
+                    <label>3. Telefonou para a vítima?</label>
+                    <br><br>
+                    <label for="p3_sim">
+                        <input type="radio" name="p3" id="p3_sim" value="Sim"> Sim
+                    </label>
+                    <br><br>
+                    <label for="p3_nao">
+                        <input type="radio" name="p3" id="p3_nao" value="Não"> Não
+                    </label>
+                    <br><br><br>
+                    <label>4. Mora perto da vítima?</label>
+                    <br><br>
+                    <label for="p4_sim">
+                        <input type="radio" name="p4" id="p4_sim" value="Sim"> Sim
+                    </label>
+                    <br><br>
+                    <label for="p4_nao">
+                        <input type="radio" name="p4" id="p4_nao" value="Não"> Não
+                    </label>
+                    <br><br><br>
+                    <label>5. Já trabalhou com a vítima?</label>
+                    <br><br>
+                    <label for="p5_sim">
+                        <input type="radio" name="p5" id="p5_sim" value="Sim"> Sim
+                    </label>
+                    <br><br>
+                    <label for="p5_nao">
+                        <input type="radio" name="p5" id="p5_nao" value="Não"> Não
+                    </label>
+                    <br><br><br>
+                    <label>6. Tinha algum desentendimento ou conflito recente com a vítima?</label>
+                    <br><br>
+                    <label for="p6_sim">
+                        <input type="radio" name="p6" id="p6_sim" value="Sim"> Sim
+                    </label>
+                    <br><br>
+                    <label for="p6_nao">
+                        <input type="radio" name="p6" id="p6_nao" value="Não"> Não
+                    </label>
+                    <br><br><br>
+                    <label>7. Possui algum motivo financeiro ou emocional que poderia levá-lo a cometer o crime?</label>
+                    <br><br>
+                    <label for="p7_sim">
+                        <input type="radio" name="p7" id="p7_sim" value="Sim"> Sim
+                    </label>
+                    <br><br>
+                    <label for="p7_nao">
+                        <input type="radio" name="p7" id="p7_nao" value="Não"> Não
+                    </label>
+                    <br><br><br>
+                    <label>8. Conhecia os hábitos diários ou a rotina da vítima?</label>
+                    <br><br>
+                    <label for="p8_sim">
+                        <input type="radio" name="p8" id="p8_sim" value="Sim"> Sim
+                    </label>
+                    <br><br>
+                    <label for="p8_nao">
+                        <input type="radio" name="p8" id="p8_nao" value="Não"> Não
+                    </label>
+                    <br><br><br>
+                    <label>9. Tem algum histórico de violência ou comportamento agressivo?</label>
+                    <br><br>
+                    <label for="p9_sim">
+                        <input type="radio" name="p9" id="p9_sim" value="Sim"> Sim
+                    </label>
+                    <br><br>
+                    <label for="p9_nao">
+                        <input type="radio" name="p9" id="p9_nao" value="Não"> Não
+                    </label>
+                    <br><br><br>
+                    <label>10. Possui algum objeto ou pertence da vítima em sua posse?</label>
+                    <br><br>
+                    <label for="p10_sim">
+                        <input type="radio" name="p10" id="p10_sim" value="Sim"> Sim
+                    </label>
+                    <br><br>
+                    <label for="p10_nao">
+                        <input type="radio" name="p10" id="p10_nao" value="Não"> Não
+                    </label>
+                    <br><br><br>
+                    <div class="botao">
+                        <a href="#" onclick="calcular()" class="botao02"><span>Calcular</span></a>
+                        <br><br>
+                        <a href="#" onclick="limpar()" class="botao01"><span>Clear</span></a>
+                    </div>
+                </form>
+                <br>
+                <p id="mensagem"></p>
+                <br><br>
+                <img src="" alt="" id="resultado_img">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

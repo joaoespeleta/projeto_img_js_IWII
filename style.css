@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*SUPERIOR*/
+.text-center{
+    text-align: center;
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: yellow;
+}
+.img01{
+    width: 20%;
+}
+.top{
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: lightgray;
+}
+.top-left{
+    text-align: right;
+    width: 40%;
+}
+.top-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.gray{
+    color: gray;
+}
+.larger{
+   font-size: 25px;
+}
+/*CONTENT*/
+.container-content{
+    background-image: url(img/background.jpg);
+    background-attachment: fixed; /* Faz a imagem de fundo permanecer fixa enquanto você rola a página */
+    background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
+    background-size: cover;
+}
+.content{
+    margin-inline: 20%;
+    background-color: black;
+    color: white;
+    padding-top: 2%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 5%;
+}
+.botao{
+    display: flex;
+}
+/*BOTÃO 01*/    
+  .botao01 {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  .botao01 span{
+    position: relative;
+    z-index: 2;
+  }
+  .botao01:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    transition: all .35s;
+  }
+  .botao01:hover{
+    color: #fff;
+  }
+  .botao01:hover:after{
+    width: 100%;
+  }
+  /*BOTÃO 01*/    
+  .botao02 {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    margin-right: 5%;
+  }
+  .botao02 span{
+    position: relative;
+    z-index: 2;
+  }
+  .botao02:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: green;
+    transition: all .35s;
+  }
+  .botao02:hover{
+    color: #fff;
+  }
+  .botao02:hover:after{
+    width: 100%;
+  }
+  input[type="text"] {
+    width: 30%; 
+    padding: 8px; 
+    margin: 10px 0; 
+    box-sizing: border-box; 
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    transition: border-color 0.3s;
+}
+input[type="text"]:focus {
+    border-color: #007BFF; 
+    outline: none;
+}
+input[type="text"]::placeholder {
+    color: #888;
+    font-style: italic; 
+}
